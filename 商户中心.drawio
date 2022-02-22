@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" modified="2022-02-22T03:33:58.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="GoEIJn6ESftqiU_jQTBA" version="16.4.6" type="github" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="查询商户角色下的用户">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="wUJQW4A5WcAPkt8JIvSW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF6666;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wUJQW4A5WcAPkt8JIvSW-0" target="wUJQW4A5WcAPkt8JIvSW-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wUJQW4A5WcAPkt8JIvSW-0" value="查询商户详情&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;（主键查询）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUJQW4A5WcAPkt8JIvSW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF6666;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wUJQW4A5WcAPkt8JIvSW-2" target="wUJQW4A5WcAPkt8JIvSW-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wUJQW4A5WcAPkt8JIvSW-2" value="查询商户角色下用户列表&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;（feign调用门户系统）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUJQW4A5WcAPkt8JIvSW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF6666;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wUJQW4A5WcAPkt8JIvSW-4" target="wUJQW4A5WcAPkt8JIvSW-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wUJQW4A5WcAPkt8JIvSW-4" value="通过用户id集合查询部门" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUJQW4A5WcAPkt8JIvSW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF6666;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wUJQW4A5WcAPkt8JIvSW-6" target="wUJQW4A5WcAPkt8JIvSW-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wUJQW4A5WcAPkt8JIvSW-6" value="通过用户id集合查询用户" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUJQW4A5WcAPkt8JIvSW-8" value="通过职务id集合查询职务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="480" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="组织树" id="VcjG2WabujMabKYnLuz5">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ygyRgqaypzKCXGc-pcWP-0" />
+        <mxCell id="ygyRgqaypzKCXGc-pcWP-1" parent="ygyRgqaypzKCXGc-pcWP-0" />
+        <mxCell id="ygyRgqaypzKCXGc-pcWP-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF6666;" edge="1" parent="ygyRgqaypzKCXGc-pcWP-1" source="ygyRgqaypzKCXGc-pcWP-3" target="ygyRgqaypzKCXGc-pcWP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ygyRgqaypzKCXGc-pcWP-3" value="查询商户详情&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;（主键查询）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="ygyRgqaypzKCXGc-pcWP-1">
+          <mxGeometry x="120" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ygyRgqaypzKCXGc-pcWP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF6666;" edge="1" parent="ygyRgqaypzKCXGc-pcWP-1" source="ygyRgqaypzKCXGc-pcWP-5" target="ygyRgqaypzKCXGc-pcWP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ygyRgqaypzKCXGc-pcWP-5" value="查询部门详情&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;（主键查询）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="ygyRgqaypzKCXGc-pcWP-1">
+          <mxGeometry x="120" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ygyRgqaypzKCXGc-pcWP-7" value="查询组织架构树" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="ygyRgqaypzKCXGc-pcWP-1">
+          <mxGeometry x="120" y="320" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
